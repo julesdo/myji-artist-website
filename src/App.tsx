@@ -2438,7 +2438,14 @@ function ThemeManager() {
     { name: 'Argile', bg: '#171514', primary: '#cfa98b', accent: '#e8e3df' }, 
     
     // Un vert forêt presque noir avec une couleur primaire vert sauge lumineuse
-    { name: 'Canopée', bg: '#101411', primary: '#9eb88d', accent: '#e9efe6' }, 
+    { name: 'Canopée', bg: '#101411', primary: '#9eb88d', accent: '#e9efe6' },
+
+    { 
+      name: 'Sellier', 
+      bg: '#1a1412',      // Cuir Ébène : un brun/noir extrêmement profond, chaud et élégant.
+      primary: '#f37021', // Orange Hermès classique : apporte la signature visuelle immédiate.
+      accent: '#f3ebd5'   // Fil de Lin / Surpiqûre : un crème texturé, bien plus doux et artisanal qu'un blanc pur.
+    },
   ];
 
   const fonts: FontOption[] = ['Inter', 'Space Grotesk', 'Playfair Display', 'JetBrains Mono', 'Outfit'];
