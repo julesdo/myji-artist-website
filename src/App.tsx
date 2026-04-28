@@ -333,13 +333,6 @@ function PortfolioPage() {
                     title={artwork.title} 
                   />
                 </Link>
-                <div className="mt-6 flex justify-between items-start">
-                  <div>
-                    <h3 className="font-serif text-lg mb-1">{artwork.title}</h3>
-                    <p className="text-[9px] text-brand-charcoal/30 uppercase tracking-widest">{artwork.medium}</p>
-                  </div>
-                  <span className="text-[9px] text-brand-charcoal/20 border border-brand-charcoal/10 px-2 py-1 uppercase">{artwork.year}</span>
-                </div>
               </motion.div>
             ))}
           </AnimatePresence>
