@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-family), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-brand-cream: var(--background);
+  --color-brand-charcoal: var(--foreground);
+  --color-brand-gold: var(--primary);
+  --color-surface: var(--card-alpha);
+  --color-border-bright: var(--border-alpha);
+}
+
+@layer base {
+  body {
+    @apply bg-brand-cream text-brand-charcoal selection:bg-brand-gold selection:text-white;
+  }
+}
