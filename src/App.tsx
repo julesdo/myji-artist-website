@@ -2425,11 +2425,20 @@ function ThemeManager() {
   const { theme, updateTheme, resetTheme } = useTheme();
 
   const presets = [
-    { name: 'Noir & Or', bg: '#0a0a0a', primary: '#d4af37', accent: '#ffffff' },
-    { name: 'Pureté', bg: '#f9f9f9', primary: '#000000', accent: '#666666' },
-    { name: 'Abysse', bg: '#050c18', primary: '#5a92d6', accent: '#ffffff' },
-    { name: 'Argile', bg: '#1c1816', primary: '#b5835a', accent: '#f8f1e9' },
-    { name: 'Canopée', bg: '#0d160e', primary: '#8da678', accent: '#fefae0' },
+    // Le classique ultra-contrasté
+    { name: 'Noir & Or', bg: '#0a0a0a', primary: '#d4af37', accent: '#f5f5f5' },
+    
+    // Le nouveau thème : Fond sombre neutre, texte principal clair, accent Orange Hermès
+    { name: 'Héritage', bg: '#141414', primary: '#e5e5e5', accent: '#f37021' }, 
+    
+    // Un fond gris-bleu abyssal très sombre, avec un bleu ciel très lisible
+    { name: 'Abysse', bg: '#0b1120', primary: '#60a5fa', accent: '#e2e8f0' }, 
+    
+    // Un fond "taupe" extrêmement foncé pour faire ressortir une teinte terre cuite douce
+    { name: 'Argile', bg: '#171514', primary: '#cfa98b', accent: '#e8e3df' }, 
+    
+    // Un vert forêt presque noir avec une couleur primaire vert sauge lumineuse
+    { name: 'Canopée', bg: '#101411', primary: '#9eb88d', accent: '#e9efe6' }, 
   ];
 
   const fonts: FontOption[] = ['Inter', 'Space Grotesk', 'Playfair Display', 'JetBrains Mono', 'Outfit'];
