@@ -48,9 +48,9 @@ export function generateAccent(hex: string): string {
 // --- Defaults ---
 
 const DEFAULT_THEME: ThemeConfig = {
-  primary: '#d4af37', // Brand Gold
-  background: '#0a0a0a', // Deep Black
-  accent: '#ffffff',
+  primary: '#f37021', // Orange Hermès classique : apporte la signature visuelle immédiate.
+  background: '#1a1412', // Orange Hermès classique : apporte la signature visuelle immédiate.
+  accent: '#f3ebd5', // Fil de Lin / Surpiqûre : un crème texturé, bien plus doux et artisanal qu'un blanc pur.
   font: 'Inter',
   isDark: true,
 };
